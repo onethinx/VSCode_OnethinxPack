@@ -1,3 +1,5 @@
+# Onethinx Core Linux dependencies pack
+
 ## How to install
 
 1. If the file ~.bash_profile doesn't exist, create it: Terminal >> `cd ~ && touch .bash_profile`
