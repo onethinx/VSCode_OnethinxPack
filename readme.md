@@ -1,4 +1,4 @@
-# Onethinx Core Linux dependencies pack
+# Onethinx Core MAC OS dependencies pack
 
 ## How to install
 
