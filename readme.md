@@ -6,7 +6,7 @@
 - **VS Code**
     - [Download Visual Studio Code](https://code.visualstudio.com/download)
 - **Onethinx Dependencies Pack**
-    - [Download the Onethinx dependencies pack for Mac OS](https://github.com/onethinx/VSCode_OnethinxPack_macOS)
+    - [Download the Onethinx dependencies pack for Mac OS](https://github.com/onethinx/VSCode_OnethinxPack_macOS/archive/master.zip)
 - **CMake**
     - [Download CMake](https://cmake.org/download/)
 - **Make**
@@ -26,7 +26,7 @@
     - Tasks (actboy168)
   - Apply the CMake path to VS Settings: `"cmake.cmakePath": "/Applications/CMake.app/Contents/bin/cmake",`
 ## 3. Install the Onethinx Dependencies Pack
-  - Put this pack on your local harddisk (eg: /Applications/VSCode_OnethinxPack_macOS).
+  - Unzip the pack archive to your local harddisk (eg: /Applications/VSCode_OnethinxPack_macOS).
   - If the file ~.bash_profile doesn't exist, create it: Terminal >> `cd ~ && touch .bash_profile`
   - Open ~.bash_profile: Terminal >> `cd ~ && open -e .bash_profile` 
   - Add this to the end of the file (make sure you enter the correct path) and save:
