@@ -10,7 +10,7 @@
 - **CMake**
     - [Download CMake](https://cmake.org/download/)
 - **Make**
-    - Install homebrew GNU by: 'make brew install homebrew/core/make' as [explained here](https://apple.stackexchange.com/questions/261918/how-to-upgrade-gnu-make-in-os-x-el-capitan).
+    - Install homebrew GNU by: `make brew install homebrew/core/make` as [explained here](https://apple.stackexchange.com/questions/261918/how-to-upgrade-gnu-make-in-os-x-el-capitan).
 ## 2. Install CMake, VS Code & extensions
   - Install CMake.
   - Install VS Code.
