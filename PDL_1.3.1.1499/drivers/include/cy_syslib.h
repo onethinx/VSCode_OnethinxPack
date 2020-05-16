@@ -1051,7 +1051,9 @@ void Cy_SysLib_ExitCriticalSection(uint32_t savedIntrStatus);
 *******************************************************************************/
 __STATIC_INLINE uint8_t Cy_SysLib_GetDeviceRevision(void)
 {
-    return ((SFLASH_SI_REVISION_ID == 0UL) ? CY_SYSLIB_DEVICE_REV_0A : SFLASH_SI_REVISION_ID);
+    // ONETHINX >> reading SFlash on the Onethinx Module causes a crash
+    //return ((SFLASH_SI_REVISION_ID == 0UL) ? CY_SYSLIB_DEVICE_REV_0A : SFLASH_SI_REVISION_ID);
+    return CY_SYSLIB_DEVICE_REV_0A;
 }
 
 
