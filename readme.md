@@ -1,6 +1,7 @@
 # Onethinx Core MAC OS-X dependencies pack
 
 ## How to setup Visual Studio Code with the Onethinx Core dependencies pack
+ The instructions on how to update are way down below.
 
 ## 1. Download prerequisites
 - **VS Code**
@@ -48,3 +49,10 @@
   - To delete the contents of the build folder
     - if you copied the project including build folder from another location / machine
     - when build fails.
+    
+## How to update
+  - download the latest Onethinx Dependencies Pack from https://github.com/onethinx/VSCode_OnethinxPack_macOS
+  - delete the contents of the Dependencies Pack folder from you harddisk
+  - unpack the contents of the archive to the Dependencies Pack folder
+  - Set the correct path in this pack's `variables.env` file.
+  - Restart your machine (or log-out and log-in) to reload the environment variables.
