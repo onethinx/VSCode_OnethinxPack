@@ -7,6 +7,9 @@
 set(C_FLAGS_WARNINGS
     "-Wall"
     "-Wno-unused-function"
+    "-Wextra"
+    "-Wtype-limits"
+    #"-Wconversion"
     #"-Werror-implicit-function-declaration"
     #"-Wfloat-equal"
     #"-Wno-type-limits"
