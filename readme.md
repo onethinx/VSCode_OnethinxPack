@@ -28,7 +28,8 @@
     - Tasks (actboy168)
   - Apply the CMake path to VS Settings: `"cmake.cmakePath": "/Applications/CMake.app/Contents/bin/cmake",`
 ## 3. Install the Onethinx Dependencies Pack
-  - Unzip the pack archive to your local harddisk (eg: /Applications/VSCode_OnethinxPack_macOS).
+  - Unzip the pack archive to your local harddisk (eg: /Applications/VSCode_OnethinxPack_macOS).<br>
+    _Hint: you might want to remove '-master' at the end of the folder name._
   - For MacOS Mojave and older (<=10.14)
     - If the file ~.bash_profile doesn't exist, create it: Terminal >> `cd ~ && touch .bash_profile`
     - Open ~.bash_profile: Terminal >> `cd ~ && open -e .bash_profile`
@@ -46,6 +47,8 @@
   - If Make and the compiler is correctly installed by typing the following into your terminal or terminal window of VS Code.
     - `make -v`
     - `arm-none-eabi-gcc -v`
+  - If you have not done this yet, download the Hello World from https://ghithub.com/onethingx/VSCode_HelloWorld
+    - If this builds without error, the Onethinx build suite has been installed properly.
 ## 5. Remind
   - After changing the device configuration (or project file structure) to use
     - Clean Reconfigure
